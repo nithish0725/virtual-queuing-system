@@ -1,0 +1,56 @@
+.admin-container {
+  min-height: 100vh;
+  background: #081335;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-card {
+  width: 750px;
+  background: rgb(233, 227, 227);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.admin-card h1 {
+  color: #0a1b49;
+}
+
+.token-box {
+  background: #eef2ff;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.token-box h1 {
+  font-size: 48px;
+  color: #2563eb;
+}
+
+.urgent-panel {
+  background: #fff7ed;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.admin-buttons button,
+.back-btn,
+.urgent-panel button {
+  margin: 8px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.queue-list {
+  margin-top: 20px;
+  text-align: left;
+}

@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+}
+
+.landing-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 60px;
+  background: linear-gradient(to right, #0c1b48, #571616);
+}
+
+.landing-left {
+  width: 50%;
+}
+
+.landing-left h1 {
+  font-size: 56px;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.landing-left p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.button-group {
+  margin-top: 30px;
+}
+
+.button-group button {
+  margin-right: 15px;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button-group button:hover {
+  background-color: #081231;
+}
+
+.landing-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.queue-image {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.global-image {
+  width: 180px;
+}
